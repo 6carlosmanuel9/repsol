@@ -1,0 +1,303 @@
+.yt-data-table {
+	border: 1px solid rgb(153, 153, 153); border-image: none; width: 100%; line-height: 1; border-collapse: collapse; background-color: rgb(255, 255, 255);
+}
+.yt-data-table th {
+	padding: 0px 0.5em; text-align: left; font-size: 0.91em; vertical-align: middle;
+}
+.yt-data-table td {
+	padding: 0.66em 0.41em; font-size: 1.08em; vertical-align: top;
+}
+.yt-data-table td .yt-uix-button {
+	font-size: 0.91em;
+}
+.yt-data-table thead {
+	background-color: rgb(216, 216, 216);
+}
+.yt-data-table thead th {
+	border: 1px solid rgb(153, 153, 153); border-image: none; height: 2.25em; color: rgb(51, 51, 51); font-weight: normal; white-space: nowrap; background-color: rgb(216, 216, 216);
+}
+.yt-data-table thead th.sortable {
+	cursor: pointer;
+}
+.yt-data-table thead th.sortable:hover span {
+	text-decoration: underline;
+}
+.yt-data-table thead th.sortable img {
+	visibility: hidden;
+}
+.yt-data-table thead th.sorted img {
+	background: url("//s.ytimg.com/yts/img/mmimgs-vfl0a1hhX.gif") no-repeat -15px -20px; width: 7px; height: 8px; visibility: visible;
+}
+.yt-data-table thead th.sorted.descending img {
+	background-position: -15px -10px;
+}
+.yt-data-table thead th.unsortable {
+	background: rgb(251, 251, 251); color: rgb(102, 102, 102);
+}
+.yt-data-table tbody tr {
+	background-color: rgb(255, 255, 255);
+}
+.yt-data-table tbody tr.alternate {
+	background-color: rgb(243, 243, 243);
+}
+.yt-data-table tbody td {
+	color: rgb(102, 102, 102);
+}
+.yt-data-table tbody td .success {
+	color: rgb(44, 169, 44);
+}
+.yt-data-table tbody .success td {
+	color: rgb(44, 169, 44);
+}
+.yt-data-table tbody td .warning {
+	color: rgb(204, 0, 0);
+}
+.yt-data-table tbody .warning td {
+	color: rgb(204, 0, 0);
+}
+.yt-data-table tfoot {
+	background-color: rgb(234, 234, 234);
+}
+.yt-data-table tfoot td {
+	padding: 0.5em; color: rgb(51, 51, 51); font-size: 0.91em; border-top-color: rgb(153, 153, 153); border-top-width: 1px; border-top-style: solid;
+}
+.yt-data-table tfoot td .yt-uix_button {
+	font-size: 1.08em;
+}
+.video-thumb-small {
+	border: 3px double rgb(153, 153, 153); border-image: none; overflow: hidden; display: block; background-color: rgb(255, 255, 255);
+}
+.video-thumb-medium {
+	border: 3px double rgb(153, 153, 153); border-image: none; overflow: hidden; display: block; background-color: rgb(255, 255, 255);
+}
+.video-thumb-normal {
+	border: 3px double rgb(153, 153, 153); border-image: none; overflow: hidden; display: block; background-color: rgb(255, 255, 255);
+}
+.video-thumb-big {
+	border: 3px double rgb(153, 153, 153); border-image: none; overflow: hidden; display: block; background-color: rgb(255, 255, 255);
+}
+.video-thumb-large {
+	border: 3px double rgb(153, 153, 153); border-image: none; overflow: hidden; display: block; background-color: rgb(255, 255, 255);
+}
+.video-thumb-jumbo {
+	border: 3px double rgb(153, 153, 153); border-image: none; overflow: hidden; display: block; background-color: rgb(255, 255, 255);
+}
+.video-thumb-tiny {
+	padding: 0px; border: 1px solid rgb(153, 153, 153); border-image: none; width: 25px; height: 15px; margin-right: 5px; vertical-align: text-bottom; display: inline-block; background-color: white;
+}
+.video-thumb-small {
+	width: 59px; height: 37px;
+}
+.video-thumb-small img {
+	width: 59px; height: 44px; margin-top: -3.5px;
+}
+.video-thumb-medium {
+	width: 94px; height: 59px;
+}
+.video-thumb-medium img {
+	width: 94px; height: 70px; margin-top: -6px;
+}
+.video-thumb-normal {
+	width: 114px; height: 72px;
+}
+.video-thumb-normal img {
+	width: 114px; height: 85px; margin-top: -6px;
+}
+.video-thumb-big {
+	width: 130px; height: 80px;
+}
+.video-thumb-big img {
+	width: 130px; height: 97px; margin-top: -8px;
+}
+.video-thumb-large {
+	width: 160px; height: 100px;
+}
+.video-thumb-large img {
+	width: 160px; height: 120px; margin-top: -10px;
+}
+.video-thumb-jumbo {
+	width: 264px; height: 174px;
+}
+.video-thumb-jumbo img {
+	width: 264px; height: 198px; margin-top: -12px;
+}
+.video-thumb-small img.faded {
+	opacity: 0.3;
+}
+.video-thumb-medium img.faded {
+	opacity: 0.3;
+}
+.video-thumb-large img.faded {
+	opacity: 0.3;
+}
+.video-thumb-jumbo img.faded {
+	opacity: 0.3;
+}
+.video-thumb-large .quicklist-inlist {
+	width: 158px;
+}
+.button {
+	margin: 0px 6px; text-align: left; color: rgb(2, 51, 154); line-height: 1.2em; font-family: "YouTube Noto",Roboto,arial,sans-serif; font-size: 1em; text-decoration: none; float: left; white-space: nowrap;
+}
+.button b {
+	background: url("//s.ytimg.com/yts/img/but-bck-vflf-LTMI.png") repeat-x 0px 0px rgb(153, 153, 153); border-width: 1px 0px; border-style: solid; border-color: rgb(161, 181, 218); margin: 0px 1px; padding: 0px; border-image: none; font-weight: 500; display: block; position: relative;
+}
+.button:hover b {
+	border-color: rgb(102, 102, 102);
+}
+.button b b {
+	background: none; border-width: 0px 1px; margin: 0px -1px; padding: 0px;
+}
+.button b b b {
+	border-width: 0px; margin: 0px; padding: 0.3em 0.5em 0.2em; cursor: pointer;
+}
+.action-button {
+	text-decoration: none; display: block; cursor: pointer;
+}
+.add-button {
+	text-decoration: none; display: block; cursor: pointer;
+}
+.edit-button {
+	text-decoration: none; display: block; cursor: pointer;
+}
+.action-button .action-button-leftcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -132px -37px; width: 5px; height: 25px; float: left; display: block; cursor: pointer;
+}
+.add-button .add-button-leftcap {
+	width: 5px; height: 25px; float: left; display: block; cursor: pointer;
+}
+.edit-button .edit-button-leftcap {
+	width: 5px; height: 25px; float: left; display: block; cursor: pointer;
+}
+.add-button .add-button-leftcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -162px -37px;
+}
+.action-button.inactive .action-button-leftcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -152px -37px;
+}
+.add-button.inactive .add-button-leftcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -152px -37px;
+}
+.edit-button .edit-button-leftcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -152px -37px;
+}
+.action-button .action-button-text {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat 0px -174px; padding: 6px 8px 0px; height: 19px; color: rgb(153, 72, 0); font-family: "YouTube Noto",Roboto,arial,sans-serif; font-size: 12px; font-weight: 500; text-decoration: none; float: left; display: block; cursor: pointer;
+}
+.add-button .add-button-text {
+	padding: 6px 8px 0px; height: 19px; font-family: "YouTube Noto",Roboto,arial,sans-serif; font-size: 12px; font-weight: 500; text-decoration: none; float: left; display: block; cursor: pointer;
+}
+.edit-button .edit-button-text {
+	padding: 6px 8px 0px; height: 19px; font-family: "YouTube Noto",Roboto,arial,sans-serif; font-size: 12px; font-weight: 500; text-decoration: none; float: left; display: block; cursor: pointer;
+}
+.action-button a {
+	text-decoration: none;
+}
+.add-button a {
+	text-decoration: none;
+}
+.edit-button a {
+	text-decoration: none;
+}
+.add-button .add-button-text {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -305px -480px; color: rgb(0, 47, 145);
+}
+.action-button.inactive .action-button-text {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat 0px -224px;
+}
+.add-button.inactive .add-button-text {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat 0px -224px;
+}
+.edit-button .edit-button-text {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat 0px -224px; color: rgb(0, 0, 0);
+}
+.action-button .action-button-rightcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -137px -37px; width: 5px; height: 25px; float: left; display: block; cursor: pointer;
+}
+.add-button .add-button-rightcap {
+	width: 5px; height: 25px; float: left; display: block; cursor: pointer;
+}
+.edit-button .edit-button-rightcap {
+	width: 5px; height: 25px; float: left; display: block; cursor: pointer;
+}
+.add-button .add-button-rightcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -167px -37px;
+}
+.action-button.inactive .action-button-rightcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -157px -37px;
+}
+.add-button.inactive .add-button-rightcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -157px -37px;
+}
+.edit-button .edit-button-rightcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -157px -37px;
+}
+.action-button .action-button-dropcap {
+	float: left; display: block;
+}
+.action-button .action-button-menu {
+	margin: -2px 6px 0px 0px; right: 0px; clear: left; border-top-color: rgb(236, 193, 3); border-top-width: 1px; border-top-style: solid; display: none; position: absolute; z-index: 10; background-color: rgb(255, 253, 177);
+}
+.action-button .action-button-menu a {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(236, 193, 3) rgb(236, 193, 3); padding: 2px 5px; border-image: none; text-align: right; color: rgb(153, 72, 0); text-decoration: none; display: block; white-space: nowrap; background-color: rgb(255, 253, 177);
+}
+.action-button .action-button-menu a:hover {
+	background-color: white;
+}
+.action-button .action-button-dropcap img {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -312px -274px; width: 26px; height: 25px; display: block;
+}
+.action-button .action-button-dropcap:hover img {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -338px -274px; width: 26px; height: 25px;
+}
+.action-button:hover .action-button-leftcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -142px -37px;
+}
+.action-button:hover .action-button-text {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat 0px -199px; text-decoration: underline;
+}
+.action-button:hover .action-button-rightcap {
+	background: url("//s.ytimg.com/yts/img/master_old-vflwdhETI.gif") no-repeat -147px -37px;
+}
+.action-button.inactive .action-button-text {
+	color: rgb(51, 51, 51);
+}
+.add-button.inactive .add-button-text {
+	color: rgb(51, 51, 51);
+}
+.edit-button.inactive .edit-button-text {
+	color: rgb(51, 51, 51);
+}
+.add-button:hover .add-button-text {
+	text-decoration: underline;
+}
+.edit-button:hover .edit-button-text {
+	text-decoration: underline;
+}
+.video-bar-left-arrow-box {
+	padding-top: 19px;
+}
+.video-bar-right-arrow-box {
+	padding-top: 19px;
+}
+.video-bar-left-arrow-box {
+	margin-right: 20px; float: left;
+}
+.video-bar-right-arrow-box {
+	float: right;
+}
+.video-bar-container-box {
+	width: 560px; overflow: hidden; float: left; position: relative;
+}
+.video-bar-long-box {
+	width: 200000px;
+}
+.video-bar-item {
+	width: 130px; margin-right: 2px; float: left;
+}
+.dataEntryTable {
+	width: 650px;
+}
+.dataEntryTableSmall {
+	width: 400px;
+}

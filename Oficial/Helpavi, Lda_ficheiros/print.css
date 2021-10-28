@@ -1,0 +1,45 @@
+body {
+	margin: 15px 0px 0px; padding: 0px; text-align: center;
+}
+h1 {
+	margin: 0px; padding: 0px; position: static;
+}
+#imSite {
+	margin: 0px auto; width: 768px; text-align: left;
+}
+#imHeader {
+	border-bottom-color: rgb(85, 85, 85); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#imMenuMain {
+	visibility: hidden; position: absolute;
+}
+#imMenuSub {
+	visibility: hidden; position: absolute;
+}
+#imContent {
+	margin: 5px 0px;
+}
+#imFooterSiteMap {
+	visibility: hidden; position: absolute;
+}
+#imFooter {
+	font: 11px/normal Arial, Helvetica, sans-serif; padding: 3px 0px 5px; color: rgb(0, 0, 0); clear: both; margin-top: 8px; border-top-color: rgb(85, 85, 85); border-top-width: 1px; border-top-style: solid; font-size-adjust: none; font-stretch: normal;
+}
+#imFooter a:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#imFooter a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#imFooter a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#imFooter a:active {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#imFooter_L {
+	float: left;
+}
+#imFooter_R {
+	float: right;
+}

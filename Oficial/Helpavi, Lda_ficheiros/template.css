@@ -1,0 +1,21 @@
+body {
+	margin: 0px; padding: 0px; background-color: rgb(255, 255, 255);
+}
+#imSite {
+	margin: 15px auto; width: 1100px; text-align: left;
+}
+#imHeader {
+	height: 120px; background-image: url("top.jpg"); background-repeat: no-repeat; background-color: rgb(255, 255, 255);
+}
+#imBody {
+	background-color: rgb(255, 255, 255);
+}
+#imMenuMain {
+	padding: 1px 7px 0px; height: 30px; background-color: rgb(255, 91, 13);
+}
+#imContent {
+	padding: 1px 7px 0px; clear: left;
+}
+#imFooter {
+	height: 25px; clear: both; background-color: rgb(255, 255, 255);
+}

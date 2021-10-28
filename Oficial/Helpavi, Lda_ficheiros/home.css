@@ -1,0 +1,117 @@
+#imCel6_00 {
+	left: 10px; top: 0px; width: 1074px; height: 400px; position: absolute;
+}
+#imSSCont_0 {
+	margin: auto; width: 1009px;
+}
+#imSSBackg_0 {
+	width: 1009px; height: 400px; overflow: hidden; position: relative;
+}
+#imSSImages_0 {
+	margin: 0px; padding: 0px; left: 0px; top: 0px; width: 1009px; height: 400px; position: relative;
+}
+#imSSImage_0 {
+	left: 4px; top: 100px; position: absolute; z-index: 500;
+}
+#imSSImage_0_back {
+	left: 4px; top: 100px; position: absolute; z-index: 499;
+}
+#imSSDescr_0 {
+	left: 0px; width: 100%; overflow: hidden; position: absolute; z-index: 501;
+}
+#imSSDescr_0_content {
+	width: 100%; position: relative;
+}
+#imSSDescr_0_bg {
+	left: 0px; top: 0px; width: 100%; position: absolute; opacity: 0.6; background-color: rgb(0, 0, 0);
+}
+#imSSDescr_0_text {
+	font: 11px/normal Tahoma; margin: 0px; padding: 5px 2%; left: 0px; top: 0px; width: 96%; text-align: center; color: rgb(255, 255, 255); position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+img.imssBtn {
+	cursor: pointer;
+}
+#imObj6_00 {
+	padding: 0px;
+}
+#imCel6_00_Cont {
+	height: 400px; text-align: center; overflow: hidden;
+}
+#imCel1_00 {
+	left: 10px; top: 410px; width: 261px; height: 242px; position: absolute;
+}
+#imObj1_00 img {
+	border: currentColor; border-image: none; width: 261px; height: 242px; vertical-align: bottom;
+}
+#imObj1_00 {
+	padding: 0px;
+}
+#imCel1_00_Cont {
+	height: 242px; text-align: center; overflow: hidden;
+}
+#imCel1_01 {
+	left: 281px; top: 410px; width: 261px; height: 242px; position: absolute;
+}
+#imObj1_01 img {
+	border: currentColor; border-image: none; width: 261px; height: 242px; vertical-align: bottom;
+}
+#imObj1_01 {
+	padding: 0px;
+}
+#imCel1_01_Cont {
+	height: 242px; text-align: center; overflow: hidden;
+}
+#imCel1_02 {
+	left: 552px; top: 410px; width: 261px; height: 242px; position: absolute;
+}
+#imObj1_02 img {
+	border: currentColor; border-image: none; width: 261px; height: 242px; vertical-align: bottom;
+}
+#imObj1_02 {
+	padding: 0px;
+}
+#imCel1_02_Cont {
+	height: 242px; text-align: center; overflow: hidden;
+}
+#imCel1_03 {
+	left: 823px; top: 410px; width: 261px; height: 242px; position: absolute;
+}
+#imObj1_03 img {
+	border: currentColor; border-image: none; width: 261px; height: 242px; vertical-align: bottom;
+}
+#imObj1_03 {
+	padding: 0px;
+}
+#imCel1_03_Cont {
+	height: 242px; text-align: center; overflow: hidden;
+}
+#imCel0_00 {
+	left: 10px; top: 662px; width: 1074px; height: 214px; position: absolute;
+}
+#imObj0_00 .ff0 {
+	font-family: Times New Roman;
+}
+#imObj0_00 .ff1 {
+	font-family: Tahoma;
+}
+#imObj0_00 .ff2 {
+	font-family: Tahoma;
+}
+#imObj0_00 .fc1 {
+	color: rgb(255, 255, 255);
+}
+#imObj0_00 .fc2 {
+	color: rgb(0, 0, 0);
+}
+#imObj0_00 .fs12 {
+	line-height: 19px; font-size: 16px; vertical-align: baseline;
+}
+#imObj0_00 {
+	padding: 0px;
+}
+#imCel0_00_Cont {
+	height: 214px; text-align: center; overflow: hidden;
+}
+#imPage {
+	height: 886px; position: relative;
+}

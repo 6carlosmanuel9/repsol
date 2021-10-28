@@ -1,0 +1,267 @@
+body{
+    position: relative;
+	margin:0px;
+	padding: 0px;
+	font-family: arial, verdana;
+    background-color: #fff;
+}
+	
+#conteudo{
+	width: 1000px;
+    height: 700px;
+	margin: auto;
+	
+}
+.topo{
+	width: 1000px;
+	height: 130px;
+	background-color: #fff;
+}
+
+
+.topo .cx1{
+	float: left;
+	width: 500px;
+	height: 130px;
+	margin:0;
+	padding:0px;	 
+}
+
+.topo .cx2{
+	float: right;
+	width: 180px;
+	height: 130px;
+	padding-left:320px;
+}
+.topo .cx1 img{
+	float:left;
+	height:75px;
+	margin-top:15px;
+	
+	
+}
+.topo h1{
+	float: left;
+	margin:0px;
+	font-size: 32px;
+	margin-top: -50px;
+	margin-left: 260px;	
+}
+.topo .cx1 p{
+	float:left;
+	margin:0px;
+	font-size: 22px;
+	margin-left: 110px;
+}
+.topo .cx2 h3{
+	float: right;
+	margin:0px;
+	font-size: 22px;
+    margin-top:15px;
+}
+.topo .cx2 p{
+	float: right;
+	margin:0px;
+	font-size: 22px;
+	margin-right:15px;
+	color:#ff8c1a;
+	letter-spacing:1px;
+    
+}
+.menu{
+	float: left;
+	width: 1000px;
+	height: 30px;
+	background-color: #ff8c1a;
+    
+}
+.menu ul{
+   float:left;
+	margin:0px;
+	padding:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+    
+    
+}
+.menu li{
+    list-style: none;
+	display: inline;
+	margin-left:40px;
+}
+.social{
+    float:right;
+	margin-top: 3px;
+    margin-right: 5px;
+    margin-top: 4px;
+
+}
+.social span{
+    position:relative;
+    text-align: center;
+    font-size: 13px;
+    text-align: center;
+}
+.menu a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #fff;
+}
+      
+#corpo{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+
+.banner{
+    float: left;
+	width: 1000px;
+    height: 200px;
+    margin: auto;
+	margin-top: 15px;
+    
+ -webkit-animation: banner 10s infinite;
+-moz-animation: banner 10s infinite;
+-ms-animation: banner 10s infinite;
+-o-animation: banner 10s infinite;
+animation: banner 10s infinite;
+
+}
+
+	@keyframes banner{
+		0%, 30%{
+			background-image: url(banner.jpg);
+            opacity: 1;
+            }
+        31%, 34%{
+            opacity: 0.1;
+        }
+        35%, 65%{
+			background-image: url(banner2.jpg);
+            opacity: 1;
+		}
+        66%,  69%{
+            opacity: 0.1; }
+        
+        70%, 100%{
+			background-image: url(banner.jpg);
+            opacity:1; 
+            
+		}
+}
+@-ms-keyframes banner{
+		0%, 30%{
+			background-image: url(banner.jpg);
+            opacity: 1;
+            }
+        31%, 34%{
+            opacity: 0.1;
+        }
+        35%, 65%{
+			background-image: url(banner2.jpg);
+            opacity: 1;
+		}
+        66%,  69%{
+            opacity: 0.1; }
+        
+        70%, 100%{
+			background-image: url(banner.jpg);
+            opacity:1; 
+            
+		}
+}
+#container{
+    display: inline-block;
+    float: left;
+    width: 1000px;
+    height: 220px;
+    margin-top: 15px;
+}
+.flip3d{
+     position: relative;
+    width:225px;
+    height: 202px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 20px;
+    box-shadow: 0px 0px 4px grey;
+    overflow: hidden;
+    margin-top: 10px;
+    perspective: 1000px;
+}
+.flip3d .frente{
+    position: absolute;
+    margin: auto; 
+    transform:  rotateY(0deg);
+    backface-visibility: hidden;
+    transition: all .5s linear;
+}
+.flip3d .fundo{
+    position: absolute;
+    margin: 0 auto;
+    transform:  rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all .5s linear; 
+}
+.flip3d:hover .frente{
+    transform:rotateY(-180deg);
+    cursor: pointer;
+}
+.flip3d:hover .fundo{
+    transform: rotateY(0deg);
+    cursor: pointer;
+}
+#container1{
+    display: inline-block;
+    float: left;
+    width:1000px;
+    height: 270px;
+    margin:0 auto; 
+    margin-top: 15px;
+}
+.box{
+    position: relative;
+    width:261px;
+    height: 242px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 20px;
+    box-shadow: 0px 0px 4px grey;
+    margin-top: 10px;
+    
+}
+.video{
+    position: relative;
+    width:400px;
+    height: 242px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 20px;
+    box-shadow: 0px 0px 4px grey;
+    margin-top: 10px;    
+}    
+poster{
+    position: relative;
+    top: 40px;
+}        
+.rodape{
+    height: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+}
+.rodape p{
+    margin-top: 5px;
+    float: left;
+    margin-left:400px; 
+}
+ .rodape  a{
+    list-style: none;
+    color: black;
+     font-size:14px;
+     border:0px;
+}
+p a:hover{
+    color: red;
+}
